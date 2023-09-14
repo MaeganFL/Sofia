@@ -1,0 +1,91 @@
+<!-- Maegan Marlow
+08/15/2023
+template.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sofia's Jewlz</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sofia's Jewlz</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="script.js" defer></script>
+    <!-- Consider adding links to popular frameworks like Bootstrap or Font Awesome for icons if you need. -->
+</head>
+
+<body>
+
+    <!-- Header section -->
+    <header>
+        <nav>
+            <div id="logo"></div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <!-- <li><a href="#about">About Me</a></li> -->
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#cart">Cart</a></li>
+            </ul>
+            <div id="cart">
+                <span id="cart-count">0</span>
+                <img src="cart.png" alt="Cart Icon" style="width: 24px;"> <!-- Adjust the style as needed -->
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main section -->
+    <main>
+
+        <!-- Home section -->
+        <section id="home">
+            <h1>Welcome to Sofia's Jewlz</h1>
+            <p>Your destination for handmade beaded bracelets and accessories.</p>
+        </section>
+
+        <!-- Products section -->
+        <section id="creations">
+            <h2>My Creations</h2>
+            <!-- Example of a product item. Repeat for each product -->
+            <div class="product-item">
+                <img src="path_to_image.jpg" alt="Product Name">
+                <p>Product Name</p>
+                <p>Product Price</p>
+                <button>Add to Cart</button>
+            </div>
+        </section>
+
+        <!-- About Us section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a young entrepreneur, just beginning & learning how to run my business. I love art and crafting and making things that are aestheticly pleasing and make people happy.</p>
+        </section>
+
+        <!-- Contact section -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <form action="mailto:maeganmarlow@icloud.com" method="POST" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+        
+                <input type="submit" value="Send">
+            </form>
+        
+        <section>
+    </main>
+
+    <!-- Footer section -->
+    <footer>
+        <p>&copy; 2023 Sofia's Jewlz. All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>
